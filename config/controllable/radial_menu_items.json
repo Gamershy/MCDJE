@@ -1,0 +1,14 @@
+[
+  {
+    "key": "controllable.key.debugInfo",
+    "color": "WHITE"
+  },
+  {
+    "key": "key.spectatorOutlines",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.advancements",
+    "color": "DARK_BLUE"
+  }
+]
