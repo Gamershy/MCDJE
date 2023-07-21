@@ -4,8 +4,13 @@ customization-meta {
   identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
   renderorder = foreground
-  randommode = false
-  randomonlyfirsttime = false
+  randommode = true
+  randomonlyfirsttime = true
+}
+
+customization {
+  path = MenuAssets/1.png
+  action = texturizebackground
 }
 
 customization {
@@ -16,33 +21,48 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = top-left
-  x = 5
+  x = -3
   action = movebutton
-  y = 220
+  y = 218
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets/buttonhovb.png
+  backgroundnormal = MenuAssets/buttonbg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = Play with Friends!
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = top-left
-  x = 206
+  x = 0
   action = movebutton
-  y = 264
+  y = 418
 }
 
 customization {
   identifier = %id=376322%
   orientation = top-left
-  x = 206
+  x = 63
   action = movebutton
-  y = 198
+  y = 418
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = top-left
-  x = 5
+  x = -3
   action = movebutton
-  y = 264
+  y = 238
 }
 
 customization {
@@ -53,27 +73,79 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets/buttonhovb.png
+  backgroundnormal = MenuAssets/buttonbg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label = Customize your Experience.
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = top-left
-  x = 5
+  x = -3
   action = movebutton
-  y = 286
+  y = 258
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets/buttonhovr.png
+  backgroundnormal = MenuAssets/buttonbg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = Cya!
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = top-left
-  x = 206
+  x = 21
   action = movebutton
-  y = 242
+  y = 418
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = top-left
-  x = 5
+  x = -3
   action = movebutton
   y = 198
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 205
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets/buttonhovb.png
+  backgroundnormal = MenuAssets/buttonbg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = Play on your own!
 }
 
 customization {
@@ -93,8 +165,13 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   orientation = top-left
-  x = 5
+  x = -3
   action = movebutton
   y = 242
 }
@@ -107,11 +184,19 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = MenuAssets/buttonbg.png
+}
+
+customization {
   identifier = %id=376346%
   orientation = top-left
-  x = 206
+  x = 42
   action = movebutton
-  y = 220
+  y = 418
 }
 
 customization {
@@ -160,7 +245,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 290
   width = 274
   action = deep_customization_element:title_screen_logo
@@ -172,7 +257,7 @@ customization {
 customization {
   orientation = original
   splash_color = #ffff00
-  hidden = false
+  hidden = true
   x = 0
   width = 60
   splash_rotation = -20
@@ -180,5 +265,16 @@ customization {
   actionid = 621598d4-302a-401d-91fd-e149b3e1928c1686552719369
   y = 0
   height = 30
+}
+
+customization {
+  path = MenuAssets/title.png
+  orientation = top-left
+  x = 222
+  width = 410
+  action = addtexture
+  actionid = 67373519-67b9-4d04-a2bb-fee0ed9d40a11689449580684
+  y = 30
+  height = 65
 }
 

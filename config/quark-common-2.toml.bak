@@ -97,7 +97,7 @@
 	"Vertical Slabs" = true
 	"Vertical Planks" = true
 	"Variant Ladders" = true
-	"Variant Furnaces" = true
+	"Variant Furnaces" = false
 	"Variant Chests" = true
 	"Variant Bookshelves" = true
 	Thatch = true
@@ -126,7 +126,7 @@
 	"Duskbound Blocks" = true
 	"Compressed Blocks" = true
 	"Celebratory Lamps" = true
-	"Bamboo Backport" = false
+	"Bamboo Backport" = true
 
 	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -407,7 +407,7 @@
 		"Enable Special Awesome Parrot" = true
 
 	[tools.endermosh_music_disc]
-		"Play Endermosh During Enderdragon Fight" = true
+		"Play Endermosh During Enderdragon Fight" = false
 		"Add To End City Loot" = true
 		"Loot Weight" = 5
 		"Loot Quality" = 1
@@ -931,7 +931,7 @@
 		"Teleport Duplication Chance" = 0.01
 
 	[world.blossom_trees]
-		"Drop Leaf Particles" = false
+		"Drop Leaf Particles" = true
 
 		[world.blossom_trees.blue]
 			Rarity = 200
@@ -1410,12 +1410,12 @@
 	"Microcrafting Helper" = true
 	"Long Range Pick Block" = true
 	"Improved Tooltips" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Elytra Indicator" = true
 	"Chest Searching" = true
 	Camera = true
 	"Back Button Keybind" = true
-	"Auto Walk Keybind" = false
+	"Auto Walk Keybind" = true
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true

@@ -126,7 +126,7 @@
 	"Duskbound Blocks" = true
 	"Compressed Blocks" = true
 	"Celebratory Lamps" = true
-	"Bamboo Backport" = true
+	"Bamboo Backport" = false
 
 	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -407,7 +407,7 @@
 		"Enable Special Awesome Parrot" = true
 
 	[tools.endermosh_music_disc]
-		"Play Endermosh During Enderdragon Fight" = true
+		"Play Endermosh During Enderdragon Fight" = false
 		"Add To End City Loot" = true
 		"Loot Weight" = 5
 		"Loot Quality" = 1
@@ -651,7 +651,7 @@
 		#A list of recipe names that should NOT be added in by default
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
-		"Disable Recipe Book" = true
+		"Disable Recipe Book" = false
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
 
@@ -931,7 +931,7 @@
 		"Teleport Duplication Chance" = 0.01
 
 	[world.blossom_trees]
-		"Drop Leaf Particles" = true
+		"Drop Leaf Particles" = false
 
 		[world.blossom_trees.blue]
 			Rarity = 200
@@ -1415,7 +1415,7 @@
 	"Chest Searching" = true
 	Camera = true
 	"Back Button Keybind" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true
@@ -1549,7 +1549,7 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = false
+		"Dark Souls Mode" = true
 		#Totem will always spawn if the player killer is himself.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped

@@ -35,6 +35,6 @@ partialYTeleportation:true
 displayStainedGlass:true
 pacPlayers:true
 displayClaims:true
-claimsFillOpacity:46
+claimsFillOpacity:12
 claimsBorderOpacity:80
 globalVersion:1
